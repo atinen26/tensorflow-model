@@ -4,7 +4,7 @@ import { WebView } from 'react-native-webview';
 const TensorFlowWebView = () => {
   return (
     <WebView
-      source={{ uri: 'https://your-github-username.github.io/tensorflow-model/' }}
+      source={{ uri: 'index.html' }}
       style={{ flex: 1 }}
     />
   );
