@@ -7,7 +7,7 @@
   <body>
     <script>
       async function loadModel() {
-        const model = await tf.loadLayersModel('https://your-github-username.github.io/tensorflow-model/model/model.json');
+        const model = await tf.loadLayersModel('model/model.json');
         // Example code to use the model:
         // const prediction = model.predict(tf.tensor([your_input_here]));
         console.log('Model loaded');
